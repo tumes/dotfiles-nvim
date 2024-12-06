@@ -37,3 +37,14 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- Point at system node
+local is_mac = vim.fn.has "macunix" == 1
+if is_mac then
+  home_dir = "/Users/robertbrandin"
+
+  local node_bin =  "/.nvm/versions/node/v20.11.1/bin"
+  vim.g.node_host_prog = home_dir .. node_bin .. "/node"
+
+  vim.cmd("let $PATH = '" .. home_dir .. node_bin .. ":' . $PATH")
+end

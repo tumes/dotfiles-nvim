@@ -9,6 +9,7 @@ return {
       "css",
       "ruby",
       "javascript",
+      "terraform",
     },
   },
 }
