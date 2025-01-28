@@ -26,12 +26,12 @@
 --   cmd = { vim.fn.expand("~/.rbenv/shims/ruby-lsp") },
 -- }
 
-local nvlsp = require "nvchad.configs.lspconfig"
+require("nvchad.configs.lspconfig").defaults()
+
 local lspconfig = require "lspconfig"
 
-nvlsp.defaults() -- loads nvchad's defaults
-
-local servers = { "html", "cssls", "tailwindcss", "stimulus_ls", "docker_compose_language_service", "dockerls", "arduino_language_server", "clangd", "terraformls", "ruby_lsp", "html" }
+local servers = { "ruby_lsp", "html", "cssls", "tailwindcss", "stimulus_ls", "docker_compose_language_service", "dockerls", "arduino_language_server", "clangd", "terraformls", "html", "astro" }
+local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do

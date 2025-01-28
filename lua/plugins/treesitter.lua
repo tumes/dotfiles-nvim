@@ -10,6 +10,7 @@ return {
       "ruby",
       "javascript",
       "terraform",
+      "astro",
     },
   },
 }

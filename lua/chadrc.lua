@@ -5,7 +5,7 @@
 local M = {}
 
 -- M.ui = {
--- 	theme = "tokyonight",
+-- 	theme = "zenburn",
 --
 -- 	-- hl_override = {
 -- 	-- 	Comment = { italic = true },
@@ -13,7 +13,7 @@ local M = {}
 -- 	-- },
 -- }
 M.base46 = {
-	theme = "tokyonight",
+	theme = "zenburn",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },

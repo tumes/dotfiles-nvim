@@ -3,7 +3,11 @@ local options = {
     lua = { "stylua" },
     -- css = { "prettier" },
     -- html = { "prettier" },
+    -- ruby = { "prettier" },
   },
+  -- ft_parsers = {
+  --   ruby = "ruby",
+  -- },
 
   -- format_on_save = {
   --   -- These options will be passed to conform.format()
@@ -12,4 +16,4 @@ local options = {
   -- },
 }
 
-require("conform").setup(options)
+return options
