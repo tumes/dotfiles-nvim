@@ -5,7 +5,7 @@
 local M = {}
 
 -- M.ui = {
--- 	theme = "zenburn",
+-- 	theme = "wombat",
 --
 -- 	-- hl_override = {
 -- 	-- 	Comment = { italic = true },
