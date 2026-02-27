@@ -11,6 +11,8 @@ return {
       "javascript",
       "terraform",
       "astro",
+      "prisma",
+      "typescript"
     },
   },
 }
