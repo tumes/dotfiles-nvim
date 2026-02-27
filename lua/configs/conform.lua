@@ -2,18 +2,15 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     astro = { "prettierd" },
-    -- html = { "prettier" },
-    -- ruby = { "prettier" },
+    css = { "prettierd" },
+    html = { "prettierd" },
+    javascript = { "prettierd" },
+    json = { "prettierd" },
+    jsonc = { "prettierd" },
+    markdown = { "prettierd" },
+    typescript = { "prettierd" },
+    yaml = { "prettierd" },
   },
-  -- ft_parsers = {
-  --   ruby = "ruby",
-  -- },
-
-  -- format_on_save = {
-  --   -- These options will be passed to conform.format()
-  --   timeout_ms = 500,
-  --   lsp_fallback = true,
-  -- },
 }
 
 return options
