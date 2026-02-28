@@ -24,5 +24,6 @@ link "CLAUDE.md"     "CLAUDE.md"
 link "settings.json" "settings.json"
 link "mcp.json"      ".mcp.json"
 link "skills"        "skills"
+link "statusline-command.sh" "statusline-command.sh"
 
 echo "Done."

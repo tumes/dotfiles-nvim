@@ -41,5 +41,9 @@
     "figma@claude-plugins-official": true,
     "sanity-plugin@sanity-agent-toolkit": true
   },
-  "alwaysThinkingEnabled": true
+  "alwaysThinkingEnabled": true,
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/robertbrandin/.claude/statusline-command.sh"
+  }
 }

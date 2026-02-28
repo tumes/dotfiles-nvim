@@ -79,6 +79,7 @@ return {
         "typescript-language-server",
         "rust-analyzer",
         "json-lsp",
+        "solargraph",
       },
       automatic_installation = true,
     },
